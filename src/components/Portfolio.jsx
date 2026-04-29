@@ -15,7 +15,7 @@ const Portfolio = () => {
     <section id="portfolio" className="py-32 px-8 md:px-16">
       <div className="mb-20">
         <h2 className="text-6xl md:text-8xl font-black uppercase tracking-tighter mb-4">
-          Selected<br /><span className="text-outline">Portfolio</span>
+          Our<br /><span className="text-outline">Projects</span>
         </h2>
         <p className="text-white/40 uppercase tracking-[0.3em] text-xs">Engineering visceral interactions</p>
       </div>
@@ -49,11 +49,11 @@ const Portfolio = () => {
                 {project.title}
               </h3>
               {project.desc && <p className="text-white/50 text-sm mb-6">{project.desc}</p>}
-              <Icon 
-                icon="lucide:arrow-up-right" 
+              <Icon
+                icon="lucide:arrow-up-right"
                 className={`text-3xl transition-transform group-hover:translate-x-2 
                   ${project.id === '02' ? 'group-hover:text-[#ff006e]' : 'text-[#00d9ff]'}
-                `} 
+                `}
               />
             </div>
           </motion.div>

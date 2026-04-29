@@ -7,7 +7,7 @@ const Hero = () => {
     <section className="min-h-screen pt-20 grid grid-cols-1 lg:grid-cols-2 relative overflow-hidden">
       {/* Left: Content */}
       <div className="flex flex-col justify-center px-8 md:px-24 py-12 z-10">
-        <motion.div 
+        <motion.div
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.7 }}
@@ -16,28 +16,28 @@ const Hero = () => {
           <span className="w-2 h-2 bg-[#00d9ff] rounded-full animate-pulse"></span>
           <span className="text-[10px] tracking-widest uppercase font-bold text-[#00d9ff]">Available for projects</span>
         </motion.div>
-        
-        <motion.h1 
+
+        <motion.h1
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.7, delay: 0.1 }}
           className="text-[10vw] font-black leading-[0.9] tracking-tighter mb-8"
         >
-          CRAFTING <br />
-          <span className="text-gradient">DIGITAL</span> <br />
-          <span className="text-outline">VIRTUE</span>
+          BUILD <br />
+          <span className="text-gradient">UNIQUE</span> <br />
+          <span className="text-outline">WEBSITE</span>
         </motion.h1>
-        
-        <motion.p 
+
+        <motion.p
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.7, delay: 0.2 }}
           className="text-lg text-white/60 max-w-lg mb-12"
         >
-          Full-stack developer focused on brutalist aesthetics and high-performance immersive web experiences.
+          Hello! I'm a <span className="text-gradient">Ankush Jha</span> and my team member is <span className="text-gradient">Tarun</span>. We are a Full-stack developer focused on brutalist aesthetics and high-performance immersive web experiences.
         </motion.p>
-        
-        <motion.div 
+
+        <motion.div
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.7, delay: 0.3 }}
@@ -50,7 +50,7 @@ const Hero = () => {
 
       {/* Right: Visual (3D Cube) */}
       <div className="hidden lg:flex items-center justify-center relative">
-        <motion.div 
+        <motion.div
           initial={{ opacity: 0, scale: 0.8 }}
           animate={{ opacity: 1, scale: 1 }}
           transition={{ duration: 1, delay: 0.5 }}
